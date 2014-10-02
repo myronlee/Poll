@@ -11,6 +11,7 @@ import android.widget.CursorAdapter;
 import android.widget.TextView;
 
 public class ExampleAdapter extends CursorAdapter {
+//TEST¡¡Github
 
     private List<String> items;
 
