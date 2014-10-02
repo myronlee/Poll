@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.diandian.coolco.poll.widget.BounceScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d3132"
+    android:fadeScrollbars="false"
+    android:fadingEdge="none"
+    android:fillViewport="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f9f9f9"
+        android:clipChildren="false"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/question"
+            style="@style/primaryTextViewTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:padding="8dp"
+            android:text="你幸福吗？"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:padding="8dp"
+            android:text="海洋顶端 | 发布时间：2014-09-02 19:53 | 关闭时间：2014-09-03 19:56"
+            android:textColor="@color/secondary_text"
+            android:textSize="12sp" />
+
+        <FrameLayout
+            android:id="@+id/bottom_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            
+        </FrameLayout>
+    </LinearLayout>
+
+</com.diandian.coolco.poll.widget.BounceScrollView>

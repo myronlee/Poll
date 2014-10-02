@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.diandian.coolco.poll.widget.ExpandListView
+        android:id="@+id/choice_list"
+        style="@style/customListViewTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:overScrollMode="never" >
+    </com.diandian.coolco.poll.widget.ExpandListView>
+    <!-- android:background="@drawable/bg_rounded_rectangle"  android:padding="2dp" -->
+
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        style="@style/customCheckBoxTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:padding="8dp"
+        android:text="匿名投票" />
+   
+    
+    <com.diandian.coolco.poll.widget.EditTextWithClear
+        android:id="@+id/poll_title"
+        style="@style/singleLineEditTextTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        actionNext=""
+        android:hint="写下你的理由"
+        android:imeOptions="actionNext" >
+
+        
+    </com.diandian.coolco.poll.widget.EditTextWithClear>
+    <!-- <requestFocus /> -->
+
+    <Button
+        android:id="@+id/poll"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_bg_btn"
+        android:text="投票"
+        android:textColor="#f9f9f9"
+        android:textSize="18sp" />
+
+</LinearLayout>

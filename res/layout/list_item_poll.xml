@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_bg_list_item"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="8dp"
+        android:text="你觉得幸福吗？七宗罪：懒惰、贪婪、愤怒、暴食、色欲、傲慢、妒忌"
+        android:textColor="@color/primary_text"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp" >
+
+        <TextView
+            android:id="@+id/my_choice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="你投了不幸福一票"
+            android:textColor="@color/secondary_text"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/votes_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:text="256人投票"
+            android:textColor="@color/secondary_text"
+            android:textSize="12sp" />
+        
+        <TextView
+            android:id="@+id/create_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:text="小夜子发起"
+            android:textColor="@color/secondary_text"
+            android:textSize="12sp" />
+        
+        <TextView
+            android:id="@+id/create_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:ellipsize="marquee"
+            android:maxLines="1"
+            android:text="2014-09-11"
+            android:textColor="@color/secondary_text"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

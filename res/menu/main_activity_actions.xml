@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.diandian.coolco.poll.MainActivity" >
+
+    <item
+        android:id="@+id/action_search_poll"
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="ifRoom"
+        android:title="搜索投票"
+        android:actionViewClass="android.widget.SearchView"/>
+    <item
+        android:id="@+id/action_create_poll"
+        android:icon="@drawable/ic_action_new"
+        android:showAsAction="ifRoom"
+        android:title="发起投票"/>
+    <item
+        android:id="@+id/action_my_poll"
+        android:showAsAction="never"
+        android:title="我的投票"/>
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="never"
+        android:title="设置"/>
+
+</menu>

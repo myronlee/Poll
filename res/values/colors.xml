@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main">#2fcaa2</color>
+    <!-- <color name="main">#45c01a</color> -->
+    <color name="green">#2fcaa2</color>
+    
+    <color name="primary_text">#353535</color>
+    <color name="secondary_text">#7d7d7d</color>
+    <color name="bg_list_item_pressed">#e7e7e7</color>
+    <color name="bg_list_item">#f9f9f9</color>
+    <color name="divider">#d5d5d5</color>
+    
+    <color name="bg_btn_normal">#ff45c01a</color>
+    <color name="bg_btn_disabled">#ffa2e08d</color>
+    <color name="bg_btn_pressed">#ff38a313</color>
+    
+<!--     <color name="bg_btn_normal">#2fcaa2</color>
+    <color name="bg_btn_disabled">#6fe8c9</color>
+    <color name="bg_btn_pressed">#21876d</color> -->
+    
+    <color name="bg_dialog_btn_pressed">#e7e7e7</color>
+    <color name="bg_dialog_btn">#f9f9f9</color>
+    
+    <color name="action_bar_btn_bg_pressed">#7dffffff</color>
+    
+    <color name="white">#f9f9f9</color>
+    
+    <color name="light_green">#c1d9a7</color>
+    <color name="blue">#d9c1a9</color>
+    <color name="yellow">#faf2bb</color>
+    <color name="qing">#a6d7c2</color>
+    <color name="grey">#e6e6de</color>
+    
+    
+    <!-- 
+    <color name="light_green">#88b76e</color>
+    <color name="blue">#7aa9da</color>
+    <color name="yellow">#ffc859</color>
+    <color name="orange">#ef9164</color>
+    <color name="grey">#e6e6de</color>
+    
+    <color name="light_red">#ede7db</color>
+    
+    <color name="">#</color>
+    <color name="">#</color>
+    <color name="">#</color>
+     -->
+</resources>
